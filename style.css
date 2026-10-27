@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg: #100c0a;
+    --surface: rgba(35, 23, 17, 0.82);
+    --text: #f6eee4;
+    --muted: #a99b8d;
+    --accent: #ff9a45;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* The small navigation bar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 5%;
+}
+
+.brand {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.brand span {
+    color: var(--accent);
+}
+
+.track-count,
+.eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: var(--muted);
+}
+
+/* Main content */
+
+.hero {
+    min-height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 35px;
+}
+
+.eyebrow {
+    margin-bottom: 6px;
+}
+
+.tagline {
+    color: var(--muted);
+    font-size: 1rem;
+    margin: 12px 0 20px;
+}
+
+.song-info {
+    margin-top: 24px;
+    max-width: 600px;
+    width: 100%;
+}
+
+
+
+.hero h1 {
+    font-size: clamp(4rem, 10vw, 8rem);
+    line-height: 0.82;
+    letter-spacing: -0.08em;
+    margin: 16px 0;
+    font-weight: 700;
+}
+
+
+/* Discover button */
+#discoverBtn {
+    border: none;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #1b1009;
+    padding: 15px 28px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 180ms ease, background 180ms ease;
+}
+
+#discoverBtn:hover {
+    transform: translateY(-3px);
+    background: #ffb36e;
+}
+
+/* Selected song details */
+.song-info {
+    margin-top: 48px;
+    max-width: 600px;
+    width: 100%;
+}
+
+#songTitle {
+    font-size: clamp(1.5rem, 4vw, 2.3rem);
+    margin-bottom: 8px;
+}
+
+#songArtist {
+    color: var(--muted);
+    margin-top: 0;
+}
+
+#playOnYouTube {
+    display: inline-block;
+    margin-top: 14px;
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 5px;
+}
+
+#playOnYouTube[hidden] {
+    display: none;
+}
+
+/* Full-screen highway video */
+#bgVideo {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* Darken the video so text stays readable */
+body {
+    background: #100c0a;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(16, 12, 10, 0.45),
+        rgba(16, 12, 10, 0.35) 45%,
+        rgba(16, 12, 10, 0.9)
+    );
+    z-index: -1;
+    pointer-events: none;
+}
