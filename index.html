@@ -28,18 +28,26 @@
 
         <button id="discoverBtn">Discover a song ↗</button>
 
-        <section class="song-info">
-            <h2 id="songTitle">Nothing playing yet</h2>
-            <p id="songArtist">Your next discovery awaits.</p>
+      
+<div id="musicCard" class="music-card" hidden>
+    <button id="closeMusicCard" class="close-card" aria-label="Close music card">
+        &times;
+    </button>
 
-            <a id="playOnYouTube"
-               href="#"
-               target="_blank"
-               rel="noopener noreferrer"
-               hidden>
-                Watch on YouTube ↗
-            </a>
-        </section>
+    <img id="songArtwork" class="song-artwork" src="" alt="Song artwork">
+
+    <div class="song-details">
+        <p class="card-label">YOUR LATEST DISCOVERY</p>
+        <h2 id="songTitle">Song Title</h2>
+        <p id="songArtist">Artist</p>
+        <p id="songMeta" class="song-meta"></p>
+
+        <a id="playOnYouTube" href="#" target="_blank" rel="noopener noreferrer" hidden>
+            Watch on YouTube ↗
+        </a>
+    </div>
+</div>
+
     </main>
 
     <script src="script.js"></script>

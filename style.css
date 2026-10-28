@@ -164,3 +164,148 @@ body::before {
     z-index: -1;
     pointer-events: none;
 }
+
+.music-card {
+    position: fixed;
+    right: 28px;
+    bottom: 28px;
+    width: min(380px, calc(100vw - 32px));
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+
+    /* Strong glass effect */
+    background: rgba(25, 20, 17, 0.32);
+    backdrop-filter: blur(35px) saturate(160%);
+    -webkit-backdrop-filter: blur(35px) saturate(160%);
+
+    /* Glass edges and reflections */
+    border: 1px solid rgba(255, 230, 205, 0.3);
+    border-top: 1px solid rgba(255, 245, 230, 0.45);
+    border-radius: 22px;
+
+    color: #fff4e8;
+
+    box-shadow:
+        0 12px 45px rgba(0, 0, 0, 0.25),
+        inset 0 1px 1px rgba(255, 255, 255, 0.16);
+
+    z-index: 10;
+    animation: cardAppear 0.35s ease both;
+}
+
+.music-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+        135deg,
+        rgba(255, 235, 215, 0.09),
+        transparent 45%,
+        rgba(255, 170, 100, 0.04)
+    );
+    pointer-events: none;
+}
+
+.music-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.music-card[hidden] {
+    display: none;
+}
+
+.song-artwork {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #30231a;
+}
+
+.song-details {
+    min-width: 0;
+}
+
+.card-label {
+    margin: 0 0 8px;
+    color: #e8a565;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+}
+
+.song-details h2 {
+    margin: 0 0 5px;
+    font-size: 1.15rem;
+    overflow-wrap: anywhere;
+}
+
+.song-details p:not(.card-label):not(.song-meta) {
+    margin: 0;
+    color: #cbbbae;
+}
+
+.song-meta {
+    margin: 7px 0 12px;
+    color: #a99a8d;
+    font-size: 0.8rem;
+}
+
+#playOnYouTube {
+    display: inline-block;
+    color: #f5b477;
+    font-size: 0.85rem;
+    text-decoration: none;
+    border-bottom: 1px solid #f5b477;
+    padding-bottom: 3px;
+}
+
+#playOnYouTube:hover {
+    color: white;
+    border-color: white;
+}
+
+.close-card {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    color: #cbbbae;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.close-card:hover {
+    color: white;
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .music-card {
+        right: 12px;
+        bottom: 12px;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .song-artwork {
+        width: 76px;
+        height: 76px;
+    }
+}
