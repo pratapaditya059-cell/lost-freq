@@ -263,5 +263,333 @@
     "genre": "Indie / Bollywood",
     "category": "Bollywood",
     "language": "Hindi"
+  },
+  {
+    "title": "Romeo and Juliet",
+    "artist": "Dire Straits",
+    "videoId": "rC95MEenIxA",
+    "genre": "Soft Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Tunnel of Love",
+    "artist": "Dire Straits",
+    "videoId": "gAirINwjaxE",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Fade Into You",
+    "artist": "Mazzy Star",
+    "videoId": "-uJ61jgFCMM",
+    "genre": "Dream Pop",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "1979",
+    "artist": "The Smashing Pumpkins",
+    "videoId": "4aeETEoNfOg",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "No Rain",
+    "artist": "Blind Melon",
+    "videoId": "3qVPNONdF58",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "No Surprises",
+    "artist": "Radiohead",
+    "videoId": "u5CVsCnxyXg",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Right Down the Line",
+    "artist": "Gerry Rafferty",
+    "videoId": "jR8RiBMecx4",
+    "genre": "Soft Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "More Than This",
+    "artist": "Roxy Music",
+    "videoId": "kOnde5c7OG8",
+    "genre": "New Wave",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Fake Plastic Trees",
+    "artist": "Radiohead",
+    "videoId": "n5h0qHwNrHk",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Unintended",
+    "artist": "Muse",
+    "videoId": "i9LOFXwPwC4",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Bedshaped",
+    "artist": "Keane",
+    "videoId": "JugGmkvhsKQ",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Hurt",
+    "artist": "Johnny Cash",
+    "videoId": "8AHCfZTRGiI",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Mad World",
+    "artist": "Gary Jules",
+    "videoId": "4N3N1MlvVc4",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "videoId": "4fWyzwo1xg0",
+    "genre": "Folk Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Landslide",
+    "artist": "Fleetwood Mac",
+    "videoId": "WM7-PYtXtJM",
+    "genre": "Folk Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "videoId": "09839DpTctU",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "videoId": "Ly6ZhQVnVow",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "videoId": "y8AWFf7EAc4",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "videoId": "AIOAlaACuv4",
+    "genre": "Folk Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Tears in Heaven",
+    "artist": "Eric Clapton",
+    "videoId": "JxPj3GAYYZ0",
+    "genre": "Soft Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "videoId": "bx1Bh8ZvH84",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "videoId": "1lyu1KKwC74",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Tonight, Tonight",
+    "artist": "The Smashing Pumpkins",
+    "videoId": "NOG3eus4ZSo",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Lithium",
+    "artist": "Nirvana",
+    "videoId": "pkcJEvMcnEg",
+    "genre": "Grunge",
+    "category": "Grunge",
+    "language": "English"
+  },
+  {
+    "title": "Heart-Shaped Box",
+    "artist": "Nirvana",
+    "videoId": "n6P0SitRwy8",
+    "genre": "Grunge",
+    "category": "Grunge",
+    "language": "English"
+  },
+  {
+    "title": "Alive",
+    "artist": "Pearl Jam",
+    "videoId": "qM0zINtulhM",
+    "genre": "Grunge",
+    "category": "Grunge",
+    "language": "English"
+  },
+  {
+    "title": "Man in the Box",
+    "artist": "Alice in Chains",
+    "videoId": "TAqZb52sgpU",
+    "genre": "Grunge",
+    "category": "Grunge",
+    "language": "English"
+  },
+  {
+    "title": "In the Air Tonight",
+    "artist": "Phil Collins",
+    "videoId": "YkADj0TPrJA",
+    "genre": "Soft Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "videoId": "OMOGaugKpzs",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "With or Without You",
+    "artist": "U2",
+    "videoId": "ujNeHIo7oTE",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "videoId": "xwtdhWltSIg",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Everybody Hurts",
+    "artist": "R.E.M.",
+    "videoId": "5rOiW_xY-kc",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "videoId": "1uYWYWPc9HU",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "In the End",
+    "artist": "Linkin Park",
+    "videoId": "eVTXPUF4Oz4",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "My Immortal",
+    "artist": "Evanescence",
+    "videoId": "5anLPw0Efmo",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Iris",
+    "artist": "Goo Goo Dolls",
+    "videoId": "NdYWuo9OFAw",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Chop Suey!",
+    "artist": "System of a Down",
+    "videoId": "CSvFpBOe8eY",
+    "genre": "Metal",
+    "category": "Metal",
+    "language": "English"
+  },
+  {
+    "title": "Tum Hi Ho",
+    "artist": "Arijit Singh",
+    "videoId": "IJq0yyWug1k",
+    "genre": "Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
+  },
+  {
+    "title": "Channa Mereya",
+    "artist": "Arijit Singh",
+    "videoId": "284Ov7ysmfA",
+    "genre": "Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
+  },
+  {
+    "title": "Agar Tum Saath Ho",
+    "artist": "Alka Yagnik, Arijit Singh",
+    "videoId": "xRb8hxwN5zc",
+    "genre": "Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
+  },
+  {
+    "title": "Kabira",
+    "artist": "Arijit Singh, Harshdeep Kaur",
+    "videoId": "ueRbLSYLrZg",
+    "genre": "Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
   }
 ]
