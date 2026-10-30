@@ -5,6 +5,7 @@
     "artist": "Guns N' Roses",
     "videoId": "8SbUC-UaAxE",
     "genre": "Rock",
+    "category": "Rock",
     "language": "English"
   },
   {
@@ -12,6 +13,7 @@
     "artist": "Nirvana",
     "videoId": "hTWKbfoikeg",
     "genre": "Grunge",
+    "category": "Grunge",
     "language": "English"
   },
   {
@@ -19,216 +21,247 @@
     "artist": "Pink Floyd",
     "videoId": "P_4uEaZQ2Kg",
     "genre": "Progressive Rock",
+    "category": "Rock",
     "language": "English"
   },
-{
-  "title": "Come As You Are",
-  "artist": "Nirvana",
-  "videoId": "vabnZ9-ex7o",
-  "genre": "Grunge",
-  "language": "English"
-},
-{
-  "title": "Sweet Child O' Mine",
-  "artist": "Guns N' Roses",
-  "videoId": "1w7OgIMMRc4",
-  "genre": "Hard Rock",
-  "language": "English"
-},
-{
-  "title": "Enter Sandman",
-  "artist": "Metallica",
-  "videoId": "CD-E-LDc384",
-  "genre": "Metal",
-  "language": "English"
-},
-{
-  "title": "Bohemian Rhapsody",
-  "artist": "Queen",
-  "videoId": "fJ9rUzIMcZQ",
-  "genre": "Rock",
-  "language": "English"
-},
-{
-  "title": "Numb",
-  "artist": "Linkin Park",
-  "videoId": "kXYiU_JCYtU",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "Creep",
-  "artist": "Radiohead",
-  "videoId": "XFkzRNyygfk",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "Yellow",
-  "artist": "Coldplay",
-  "videoId": "yKNxeF4KMsY",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "Zombie",
-  "artist": "The Cranberries",
-  "videoId": "6Ejga4kJUts",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "Seven Nation Army",
-  "artist": "The White Stripes",
-  "videoId": "0J2QdDbelmY",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "Take On Me",
-  "artist": "a-ha",
-  "videoId": "djV11Xbc914",
-  "genre": "Synth-pop",
-  "language": "English"
-},
-{
-  "title": "Black",
-  "artist": "Pearl Jam",
-  "videoId": "4q9UafsiQ6k",
-  "genre": "Grunge",
-  "language": "English"
-},
-{
-  "title": "Everlong",
-  "artist": "Foo Fighters",
-  "videoId": "eBG7P-K-r1Y",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "The Unforgiven",
-  "artist": "Metallica",
-  "videoId": "Ckom3gf57Yw",
-  "genre": "Metal",
-  "language": "English"
-},
-{
-  "title": "Nothing Else Matters",
-  "artist": "Metallica",
-  "videoId": "tAGnKpE4NCI",
-  "genre": "Metal",
-  "language": "English"
-},
-{
-  "title": "Highway to Hell",
-  "artist": "AC/DC",
-  "videoId": "l482T0yNkeo",
-  "genre": "Hard Rock",
-  "language": "English"
-},
-{
-  "title": "Back In Black",
-  "artist": "AC/DC",
-  "videoId": "pAgnI1N_-gk",
-  "genre": "Hard Rock",
-  "language": "English"
-},
-{
-  "title": "Wish You Were Here",
-  "artist": "Pink Floyd",
-  "videoId": "IXdNnw99-Ic",
-  "genre": "Progressive Rock",
-  "language": "English"
-},
-{
-  "title": "Another Brick in the Wall, Pt. 2",
-  "artist": "Pink Floyd",
-  "videoId": "HrxX9TBj2zY",
-  "genre": "Progressive Rock",
-  "language": "English"
-},
-{
-  "title": "The Less I Know the Better",
-  "artist": "Tame Impala",
-  "videoId": "2SUwOgmvzK4",
-  "genre": "Psychedelic Pop",
-  "language": "English"
-},
-{
-  "title": "505",
-  "artist": "Arctic Monkeys",
-  "videoId": "qU9mHegkTc4",
-  "genre": "Indie Rock",
-  "language": "English"
-},
-{
-  "title": "Do I Wanna Know?",
-  "artist": "Arctic Monkeys",
-  "videoId": "bpOSxM0rNPM",
-  "genre": "Indie Rock",
-  "language": "English"
-},
-{
-  "title": "Somebody That I Used to Know",
-  "artist": "Gotye",
-  "videoId": "8UVNT4wvIGY",
-  "genre": "Indie Pop",
-  "language": "English"
-},
-{
-  "title": "Space Song",
-  "artist": "Beach House",
-  "videoId": "RBtlPT23PTM",
-  "genre": "Dream Pop",
-  "language": "English"
-},
-{
-  "title": "The Night We Met",
-  "artist": "Lord Huron",
-  "videoId": "KtlgYxa6BMU",
-  "genre": "Indie Folk",
-  "language": "English"
-},
-{
-  "title": "Somewhere Only We Know",
-  "artist": "Keane",
-  "videoId": "Oextk-If8HQ",
-  "genre": "Alternative Rock",
-  "language": "English"
-},
-{
-  "title": "Everybody Wants to Rule the World",
-  "artist": "Tears for Fears",
-  "videoId": "aGCdLKXNF3w",
-  "genre": "Synth-pop",
-  "language": "English"
-},
-{
-  "title": "Phir Se Ud Chala",
-  "artist": "Mohit Chauhan",
-  "videoId": "2mWaqsC3U7k",
-  "genre": "Indie / Bollywood",
-  "language": "Hindi"
-},
-{
-  "title": "Aankhon Mein Teri Ajab Si",
-  "artist": "K.K.",
-  "videoId": "2drIKUOCZxU",
-  "genre": "Bollywood",
-  "language": "Hindi"
-},
-{
-  "title": "Kun Faya Kun",
-  "artist": "A.R. Rahman, Javed Ali, Mohit Chauhan",
-  "videoId": "T94PHkuydcw",
-  "genre": "Sufi",
-  "language": "Hindi"
-},
-{
-  "title": "Iktara",
-  "artist": "Kavita Seth, Amit Trivedi",
-  "videoId": "fSS_R91Nimw",
-  "genre": "Indie / Bollywood",
-  "language": "Hindi"
-}
+  {
+    "title": "Come As You Are",
+    "artist": "Nirvana",
+    "videoId": "vabnZ9-ex7o",
+    "genre": "Grunge",
+    "category": "Grunge",
+    "language": "English"
+  },
+  {
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "videoId": "1w7OgIMMRc4",
+    "genre": "Hard Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "videoId": "CD-E-LDc384",
+    "genre": "Metal",
+    "category": "Metal",
+    "language": "English"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "videoId": "fJ9rUzIMcZQ",
+    "genre": "Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "videoId": "kXYiU_JCYtU",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "videoId": "XFkzRNyygfk",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "videoId": "yKNxeF4KMsY",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "videoId": "6Ejga4kJUts",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "videoId": "0J2QdDbelmY",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "videoId": "djV11Xbc914",
+    "genre": "Synth-pop",
+    "category": "Pop",
+    "language": "English"
+  },
+  {
+    "title": "Black",
+    "artist": "Pearl Jam",
+    "videoId": "4q9UafsiQ6k",
+    "genre": "Grunge",
+    "category": "Grunge",
+    "language": "English"
+  },
+  {
+    "title": "Everlong",
+    "artist": "Foo Fighters",
+    "videoId": "eBG7P-K-r1Y",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "The Unforgiven",
+    "artist": "Metallica",
+    "videoId": "Ckom3gf57Yw",
+    "genre": "Metal",
+    "category": "Metal",
+    "language": "English"
+  },
+  {
+    "title": "Nothing Else Matters",
+    "artist": "Metallica",
+    "videoId": "tAGnKpE4NCI",
+    "genre": "Metal",
+    "category": "Metal",
+    "language": "English"
+  },
+  {
+    "title": "Highway to Hell",
+    "artist": "AC/DC",
+    "videoId": "l482T0yNkeo",
+    "genre": "Hard Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Back In Black",
+    "artist": "AC/DC",
+    "videoId": "pAgnI1N_-gk",
+    "genre": "Hard Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "videoId": "IXdNnw99-Ic",
+    "genre": "Progressive Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "Another Brick in the Wall, Pt. 2",
+    "artist": "Pink Floyd",
+    "videoId": "HrxX9TBj2zY",
+    "genre": "Progressive Rock",
+    "category": "Rock",
+    "language": "English"
+  },
+  {
+    "title": "The Less I Know the Better",
+    "artist": "Tame Impala",
+    "videoId": "2SUwOgmvzK4",
+    "genre": "Psychedelic Pop",
+    "category": "Pop",
+    "language": "English"
+  },
+  {
+    "title": "505",
+    "artist": "Arctic Monkeys",
+    "videoId": "qU9mHegkTc4",
+    "genre": "Indie Rock",
+    "category": "Indie",
+    "language": "English"
+  },
+  {
+    "title": "Do I Wanna Know?",
+    "artist": "Arctic Monkeys",
+    "videoId": "bpOSxM0rNPM",
+    "genre": "Indie Rock",
+    "category": "Indie",
+    "language": "English"
+  },
+  {
+    "title": "Somebody That I Used to Know",
+    "artist": "Gotye",
+    "videoId": "8UVNT4wvIGY",
+    "genre": "Indie Pop",
+    "category": "Indie",
+    "language": "English"
+  },
+  {
+    "title": "Space Song",
+    "artist": "Beach House",
+    "videoId": "RBtlPT23PTM",
+    "genre": "Dream Pop",
+    "category": "Pop",
+    "language": "English"
+  },
+  {
+    "title": "The Night We Met",
+    "artist": "Lord Huron",
+    "videoId": "KtlgYxa6BMU",
+    "genre": "Indie Folk",
+    "category": "Indie",
+    "language": "English"
+  },
+  {
+    "title": "Somewhere Only We Know",
+    "artist": "Keane",
+    "videoId": "Oextk-If8HQ",
+    "genre": "Alternative Rock",
+    "category": "Alternative",
+    "language": "English"
+  },
+  {
+    "title": "Everybody Wants to Rule the World",
+    "artist": "Tears for Fears",
+    "videoId": "aGCdLKXNF3w",
+    "genre": "Synth-pop",
+    "category": "Pop",
+    "language": "English"
+  },
+  {
+    "title": "Phir Se Ud Chala",
+    "artist": "Mohit Chauhan",
+    "videoId": "2mWaqsC3U7k",
+    "genre": "Indie / Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
+  },
+  {
+    "title": "Aankhon Mein Teri Ajab Si",
+    "artist": "K.K.",
+    "videoId": "2drIKUOCZxU",
+    "genre": "Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
+  },
+  {
+    "title": "Kun Faya Kun",
+    "artist": "A.R. Rahman, Javed Ali, Mohit Chauhan",
+    "videoId": "T94PHkuydcw",
+    "genre": "Sufi",
+    "category": "Others",
+    "language": "Hindi"
+  },
+  {
+    "title": "Iktara",
+    "artist": "Kavita Seth, Amit Trivedi",
+    "videoId": "fSS_R91Nimw",
+    "genre": "Indie / Bollywood",
+    "category": "Bollywood",
+    "language": "Hindi"
+  }
 ]

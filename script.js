@@ -2,6 +2,7 @@ const button = document.getElementById("discoverBtn");
 
 let songs = [];
 let remainingSongs=[];
+let selectedGenre = "All";
 
 async function loadSongs() {
     const response = await fetch("songs.json");
@@ -18,7 +19,12 @@ button.addEventListener("click", function () {
 
     
 if (remainingSongs.length === 0) {
-    remainingSongs = [...songs];
+
+    const filteredSongs = selectedGenre === "All"
+        ? songs
+        : songs.filter(song => song.category === selectedGenre);
+
+    remainingSongs = [...filteredSongs];
 }
 
 const randomIndex = Math.floor(Math.random() * remainingSongs.length);
@@ -46,6 +52,28 @@ console.log("Selected song:", song);
 
 document.getElementById("closeMusicCard").addEventListener("click", function () {
     document.getElementById("musicCard").hidden = true;
+});
+
+const genreButtons = document.querySelectorAll(".genre-btn");
+
+genreButtons.forEach(button => {
+    button.addEventListener("click", function () {
+
+        // Update selected genre
+        selectedGenre = this.dataset.genre;
+
+        // Update active button styling
+        genreButtons.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+        // Reset no-repeat pool
+        remainingSongs = [];
+
+        console.log("Selected genre:", selectedGenre);
+    });
 });
 
 loadSongs();
